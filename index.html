@@ -16,7 +16,7 @@
   <div id="parker-fuel-frame"><iframe id="parker-fuel-app" title="Parker Fuel" allow="clipboard-write" referrerpolicy="no-referrer"></iframe></div>
   <script>
     (() => {
-      const APPS_SCRIPT_EXEC_URL = 'PASTE_CALORIE_APPS_SCRIPT_EXEC_URL_HERE';
+      const APPS_SCRIPT_EXEC_URL = 'https://script.google.com/macros/s/AKfycbzKlzuj4O5M-eTLDUXixI62IFXMor2_S1aPxGCoW6sx6jOGCuoJMKMYhR9cr2nfXL6X/exec';
       const frame = document.getElementById('parker-fuel-app');
       function openFuel() { frame.src = APPS_SCRIPT_EXEC_URL + (window.location.search || '') + (window.location.hash || ''); }
       openFuel();
